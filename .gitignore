@@ -1,0 +1,7 @@
+flyway.conf
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
