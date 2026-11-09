@@ -1,0 +1,7 @@
+# Copy to flyway.conf and set credentials locally.
+# Do not commit flyway.conf or real passwords.
+flyway.url=jdbc:postgresql://localhost:5432/bootcamp
+flyway.user=postgres
+# Prefer FLYWAY_PASSWORD environment variable over storing a password here.
+flyway.locations=filesystem:migrations
+flyway.validateMigrationNaming=true
